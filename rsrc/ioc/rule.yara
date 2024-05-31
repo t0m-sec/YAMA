@@ -194,5 +194,5 @@ rule CustomRule {
         author = "TK"
 
     	condition:
-    		filesize > 100MB and uint16(0) == 0x5A4D 
+    		filesize > 10MB and uint16(0) == 0x5A4D 
 }
